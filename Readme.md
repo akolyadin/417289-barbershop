@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Антон Колядин](https://up.htmlacademy.ru/htmlcss/17/user/417289).
+* Студент: [Антон Колядин :)](https://up.htmlacademy.ru/htmlcss/17/user/417289).
 * Наставник: [Сергей Кравченко](https://up.htmlacademy.ru/htmlcss/17/user/13921).
 ---
 
