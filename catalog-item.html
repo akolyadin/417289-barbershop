@@ -8,7 +8,7 @@
   <body>
   <header class="main-header">
     <div class="container">
-      <nav class="main-nav">
+      <nav class="main-nav-item">
         <ul>
           <li>
             <a href="#">Информация</a>
@@ -33,42 +33,44 @@
     </div>
   </header>
 
-  <main class="container">
-    <h1>Набор для путешествий "Baxter of California"</h1>
+  <main class="comtainer">
+    <h1 class="main-title">Набор для путешествий "Baxter of California"</h1>
       <ul class="breadcrumbs">
-        <li> <a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
-        <li><a href="#">Средства для ухода</a></li>
+        <li class="breadcrumbs-item"> <a href="index.html">Главная</a></li>
+        <li class="breadcrumbs-item"><a href="catalog.html">Магазин</a></li>
+        <li class="breadcrumbs-item"><a href="#">Средства для ухода</a></li>
         <li>Набор для путешествий "Baxter of California"</li>
       </ul>
 
-      <ul class="foto-item">
-          <li><img src="http://placehold.it/460x500"></li>
-          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
-          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
-          <li><a href="#"><img src="http://placehold.it/150x100"></a></li>
-      </ul>
+      <div class="item-photo">
+        <img src="" width="460" height="500" alt="Travel Kit">
+      </div>
+      <div class="item-thumbnails">
+        <a href="#"><img src="" width="150" height="100" alt="Travel Kit"> </a>
+        <a href="#"><img src="" width="150" height="100" alt="Travel Kit"> </a>
+        <a href="#"><img src="" width="150" height="100" alt="Travel Kit"> </a>
+      </div>
 
-      <div class="right-col">
-        <section>
-          <p>Есть в наличии</p>
-          <p>Артикул: DEXTER-AE</p>
+      <div class="item-description">
+        <div>
+          <span class="item-available">Есть в наличии</span>
+          <span class="item-article">Артикул: DEXTER-AE</span>
           <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожанной сумке находится все,
             что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий
              крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком</p>
-            <p>2900 руб.</p>
+            <span class="price">2900 руб.</span>
             <a href="#" class="btn">Купить</a>
-            </section>
-        <section>
+          </div>
+        <div>
           <h2 class="subtitle">В набор входят:</h2>
-          <ul class="item-set">
+          <ul>
             <li>Средство для умывания (50 мл)</li>
             <li>Увлажняющий крем (50 мл)</li>
             <li>Крем для бритья (50 мл)</li>
             <li>Крем после бритья, шампунь (50 мл)</li>
             <li>Удобная кожанная косметичка</li>
           </ul>
-        </section>
+        </div>
       </div>
 
     </main>
